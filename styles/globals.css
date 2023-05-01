@@ -20,3 +20,27 @@ label {
 .btn-primary{
   @apply bg-green-600 text-white px-4 py-1 rounded-md 
 }
+
+.btn-red {
+  @apply bg-red-600 text-white px-4 py-1 rounded-md 
+}
+
+.btn-default {
+  @apply bg-gray-600 text-white px-4 py-1 rounded-md
+}
+
+table.basic {
+  @apply w-full
+}
+
+table.basic thead tr td {
+  @apply bg-gray-100
+}
+
+table.basic tr td {
+  @apply border border-gray-300 p-1 
+}
+
+table.basic a {
+  @apply bg-green-400 text-white text-sm p-1 py-2 rounded-md inline-flex  gap-1 font-bold
+}
